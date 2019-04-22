@@ -1,0 +1,106 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #E4E4E4;
+}
+a{text-decoration: none;color: inherit;}
+
+.app{
+  margin: 75px 100px;
+  background-color: red;
+  height: 500px;
+  display: grid;
+  grid-template-columns: 3fr 4fr;
+  grid-template-rows: repeat(5,1fr);
+  border-radius: 10px;
+}
+.title{
+  grid-column: 1/2;grid-row: 1/-1;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding: 30px 50px;
+  background: linear-gradient(155deg, #FCA0A5, #DE9DE3, #8EBEFE);
+  color: white;
+  text-align: center;
+  font-family: 'Oleo Script', cursive;
+  letter-spacing: 3px; word-spacing: 10px;
+  font-size: 25px;
+}
+#title_name{
+  margin-top: 180px;
+}
+.form{
+  padding: 30px 50px;
+  grid-column: 2/3;grid-row: 1/2;
+  background-color: #595959;
+  border-top-right-radius: 10px;
+
+}
+.form_block{
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap:10px;
+}
+
+.form_block input{
+  height: 40px;
+  width: 190px;
+  background-color: transparent;
+  border: none;
+  border-bottom:2px solid #84B2FD;
+  color: white;
+  font-size: 20px;
+  padding-left: 15px;
+  outline: none;
+  font-family: 'Unna', serif;
+}
+
+.form_block button{
+  width: 150px;
+  border-radius: 5px;
+  margin-left: 25px;
+  outline: none;
+  border: none;
+  font-family: 'Unna', serif;
+  font-size: 18px;
+  background-color: #F39FB7;
+  color: white;
+}
+.form_block button:hover{
+  background-color: #A7B3F5;
+}
+
+.weather{
+  padding: 30px 50px;
+  grid-column: 2/3;
+  grid-row: 2/6;
+  background-color: #595959;
+  color: white;
+  font-family: 'Unna', serif;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 1px;
+  border-bottom-right-radius: 10px;
+}
+.weather span{
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
